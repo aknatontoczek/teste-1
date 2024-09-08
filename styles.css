@@ -1,0 +1,91 @@
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo das seções */
+section {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section-home {
+    text-align: center;
+}
+
+.section-depoimentos {
+    background-color: #f9f9f9;
+}
+
+.section-blog article {
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
